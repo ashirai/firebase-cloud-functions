@@ -7,3 +7,4 @@ admin.initializeApp(functions.config().firebase);
 
 //functions
 require('./events')(exports, admin);
+require('./rewards')(exports, admin);
